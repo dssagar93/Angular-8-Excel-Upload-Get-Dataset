@@ -28,9 +28,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss",
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
+              {
+                "input":"./node_modules/jQuery-QueryBuilder/dist/css/query-builder.default.css"
+
+              },
+              {
+                "input":"./node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css"
+              }
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jQuery-QueryBuilder/dist/js/query-builder.standalone.min.js",
+              "./node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",      
+              "./node_modules/moment/min/moment.min.js",
+              "./node_modules/datatables.net/js/jquery.dataTables.js"
+
+            ]
           },
           "configurations": {
             "production": {
