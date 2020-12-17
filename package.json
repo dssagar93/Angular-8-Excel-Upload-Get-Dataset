@@ -22,7 +22,7 @@
     "angular-datatables": "^9.0.2",
     "bootstrap": "^4.5.0",
     "bootstrap-datepicker": "^1.9.0",
-    "datatables.net": "^1.10.21",
+    "datatables.net": "^1.10.22",
     "jQuery-QueryBuilder": "^2.5.2",
     "jquery": "^3.5.1",
     "moment": "^2.27.0",
